@@ -1,5 +1,0 @@
-git init
-cd ..
-git add -A
-git status
-git commit -m"init repo"
