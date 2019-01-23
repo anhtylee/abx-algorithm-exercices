@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/nim-game/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/nim-game/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def canWinNim(self, n):
@@ -7,5 +8,7 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        if (n)%4==0: return False
-        else: return Tru
+        if (n) % 4 == 0:
+            return False
+        else:
+            return True

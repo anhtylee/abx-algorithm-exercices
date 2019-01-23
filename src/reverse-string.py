@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/reverse-string/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/reverse-string/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def reverseString(self, s):
@@ -8,4 +9,3 @@ class Solution(object):
         :rtype: str
         """
         return s[::-1]
-        

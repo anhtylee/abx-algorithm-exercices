@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/contains-duplicate/
-#writtenby:anhty9le
+# url https://leetcode.com/problems/contains-duplicate/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def containsDuplicate(self, nums):
@@ -8,6 +9,9 @@ class Solution(object):
         :rtype: bool
         """
         nums.sort()
-        for i in range(len(nums)-1):
-            if nums[i]==nums[i+1]: return True
+
+        for i in range(len(nums) - 1):
+            if nums[i] == nums[i + 1]:
+                return True
+
         return False

@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/n-repeated-element-in-size-2n-array/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def repeatedNTimes(self, A):
@@ -7,8 +8,9 @@ class Solution(object):
         :type A: List[int]
         :rtype: int
         """
-        n=len(A)
+        n = len(A)
+
         for i in range(n):
-            for j in range(i+1,n):
-                if A[i]==A[j]: return A[i]
-        
+            for j in range(i + 1, n):
+                if A[i] == A[j]:
+                    return A[i]

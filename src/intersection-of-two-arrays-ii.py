@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/intersection-of-two-arrays-ii/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/intersection-of-two-arrays-ii/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def intersect(self, nums1, nums2):
@@ -10,14 +11,15 @@ class Solution(object):
         """
         nums1.sort()
         nums2.sort()
-        n1=len(nums1)
-        n2=len(nums2)
-        arr=[]
-        
+        n1 = len(nums1)
+        n2 = len(nums2)
+        arr = []
+
         for i in range(n1):
             for j in range(n2):
-                if nums1[i]==nums2[j]:
+                if nums1[i] == nums2[j]:
                     arr.append(nums1[i])
-                    nums1[i]="b"
-                    nums2[j]="a"
+                    nums1[i] = "b"
+                    nums2[j] = "a"
+
         return arr

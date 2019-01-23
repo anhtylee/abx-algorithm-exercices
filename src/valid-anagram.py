@@ -1,13 +1,19 @@
-#url https://leetcode.com/problems/valid-anagram/	
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/valid-anagram/
+# writtenby:anhty9le
+
 
 def fixString(string):
-    n=len(string)
-    arrS=[]
+    n = len(string)
+    arrS = []
+
     for i in range(n):
         arrS.append(string[i])
+
     arrS.sort()
+
     return arrS
+
+
 class Solution(object):
     def isAnagram(self, s, t):
         """
@@ -15,5 +21,4 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        return fixString(s)==fixString(t)
-        
+        return fixString(s) == fixString(t)

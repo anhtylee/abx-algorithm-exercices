@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/sqrtx/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/sqrtx/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def mySqrt(self, x):
@@ -8,4 +9,3 @@ class Solution(object):
         :rtype: int
         """
         return int((math.sqrt(x)))
-        

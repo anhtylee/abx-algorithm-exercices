@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/single-number/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/single-number/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def singleNumber(self, nums):
@@ -8,4 +9,5 @@ class Solution(object):
         :rtype: int
         """
         for i in range(len(nums)):
-            if nums.count(nums[i])==1: return(nums[i])
+            if nums.count(nums[i]) == 1:
+                return(nums[i])

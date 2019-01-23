@@ -1,5 +1,6 @@
-#url https://leetcode.com/problems/palindrome-number/
-#writtenby:anhty9le	
+# url https://leetcode.com/problems/palindrome-number/
+# writtenby:anhty9le
+
 
 class Solution(object):
     def isPalindrome(self, x):
@@ -7,7 +8,9 @@ class Solution(object):
         :type x: int
         :rtype: bool
         """
-        if x<0: return False
-        s=str(x)
-        return s==s[::-1]
-        
+        if x < 0:
+            return False
+
+        s = str(x)
+
+        return s == s[::-1]
